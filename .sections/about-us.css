@@ -1,0 +1,26 @@
+.about-us-section {
+    margin-top: 90px;
+    background: url("../.images/Vector Smart Object (1).png") no-repeat 3% 35% ,
+    url("../.images/Vector Smart Object (2).png") no-repeat bottom right;
+
+
+
+}
+.about-us-logo {
+    margin-bottom: 30px;
+}
+.about-us-first-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #878787;
+    margin-bottom: 30px;
+
+
+
+}
+
+@media (max-width: 1200px) {
+    .about-us-section {
+        margin: 90px 30px 30px 30px;
+    }
+}

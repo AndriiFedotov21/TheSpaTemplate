@@ -1,0 +1,131 @@
+.forms-section {
+    max-width: 100%;
+    display: flex;
+    margin: 80px auto;
+
+
+
+}
+.forms-block-left {
+    height: 600px;
+    background-color: #bfbfbf;
+    width: 40%;
+
+}
+.forms-block-right {
+    display: flex;
+
+    height: 600px;
+    width: 60%;
+
+    background-color: #fdf9f8;
+}
+.forms-input {
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    outline: none;
+    background-color: #fdf9f8;
+
+}
+.to-align-block {
+    margin-top: 80px;
+}
+.forms-block-inside-left {
+    max-width: 30%;
+    margin-left: 80px;
+}
+
+.forms-block-inside-right {
+    margin-left: 25px;
+    max-width: 30%;
+}
+.label-for-padding {
+    display: block;
+}
+.forms-input-date {
+    margin: 30px 0;
+    height: 30px;
+    width: 102%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    outline: none;
+    background-color: #fdf9f8;
+    color: #989898;
+
+}
+input[type="date"]::before {
+    color: #989898;
+    content: attr(placeholder);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #989898;
+    margin-right: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+    content: "";
+}
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+    color: #989898;
+
+}
+input[type="time"]::before {
+    color: #989898;
+    content: attr(placeholder);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+input[type="time"]:before {
+    content: attr(placeholder) !important;
+    color: #989898;
+    margin-right: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+input[type="time"]:focus:before,
+input[type="time"]:valid:before {
+    content: "";
+}
+.textarea-forms {
+    margin-top: 60px;
+    width: 210%;
+}
+label {
+    cursor: default;
+}
+.appointment-button {
+    width: 220px;
+    margin-top: 40px;
+}
+@media (max-width: 1300px) {
+    .forms-block-left {
+        width: 0;
+    }
+    .forms-block-right {
+        width: 100%;
+        justify-content: center;
+
+    }
+    .forms-block-inside-left {
+        margin-left: 0;
+    }
+    .forms-block-inside-left {
+        width: 45%;
+    }
+    .forms-block-inside-right {
+        width: 45%;
+    }
+}

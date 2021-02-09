@@ -1,0 +1,60 @@
+.quote-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fdf9f8;
+}
+.quote-logo {
+    padding-top: 80px;
+    margin-bottom: 35px;
+}
+.quote-text {
+    font-family: 'Rufina', serif;
+    font-size: 18px;
+    color: #303d43;
+    padding-bottom: 35px;
+    line-height: 2;
+}
+.photo-itself {
+    border-radius: 50%;
+}
+.quote-photo-holder {
+    margin-bottom: 25px;
+}
+.text-holder {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.text-inside-name {
+    font-family: 'Rufina', serif;
+    font-size: 22px;
+    color: #303d43;
+}
+.text-inside-position {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+.quote-circles-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+
+}
+.quote-circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 0;
+    background-color: #f0c2c1;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.quote-circle:hover {
+    background-color: #e3807d;
+    transition: 0.5s;
+    cursor: pointer;
+
+}

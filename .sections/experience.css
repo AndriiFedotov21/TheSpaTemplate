@@ -1,0 +1,121 @@
+.experience-section-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.experience-list-item {
+    transition: 0.5s;
+    width: 440px;
+    height: 600px;
+
+    margin-bottom: 50px;
+}
+.with-margin {
+    margin: 0 40px 0 40px;
+}
+.experience-photo {
+    width: 100%;
+    height: 100%;
+}
+.experience-block-inside {
+    transition: 0.5s;
+    width: 250px;
+    height: 100px;
+    left: 21%;
+    position: relative;
+    background-color: white;
+    top: -60px;
+}
+
+
+
+.block-inside-name {
+    padding-top: 20px;
+    margin: 20px 0 10px 0;
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #303d43;
+}
+.block-inside-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #878787;
+    margin-bottom: 30px;
+}
+.hidden-block-exp {
+    display: none;
+}
+.experience-block-inside:hover {
+    height: 160px;
+    transition: 0.6s;
+    top: -100px;
+
+}
+.experience-block-inside:hover .hidden-block-exp {
+    display: block;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+.new-icons {
+    color: black;
+    transition: 0.5s;
+
+}
+.new-icons:hover {
+    color: #e3807d;
+    transition: 0.5s;
+}
+.experience-list-item:hover {
+    box-shadow: 2px 2px 2px 2px #b0adad;
+}
+.experience-block-inside:hover {
+    box-shadow: 2px 2px 2px 2px #b0adad;
+}
+.fab {
+    padding-right: 5px;
+}
+
+@media (max-width: 1300px) {
+    .experience-list-item {
+        width: 350px;
+    }
+    .experience-block-inside {
+        left: 14%;
+    }
+}
+@media (max-width: 1190px) {
+    .experience-list-item {
+        width: 300px;
+    }
+    .experience-block-inside {
+        left: 8%;
+    }
+}
+@media (max-width: 1030px) {
+    .experience-list-item {
+        width: 430px;
+        margin-bottom: 100px;
+    }
+    .experience-block-inside {
+        left: 21%;
+    }
+}
+@media (max-width: 760px) {
+    .experience-list-item {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .experience-block-inside {
+        width: 80%;
+        left: 8%;
+
+    }
+    .with-margin {
+        margin: 100px 0;
+    }
+}
+
+
+

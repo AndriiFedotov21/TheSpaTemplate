@@ -1,0 +1,103 @@
+.beauty-section {
+    background: url("../.images/BG .png") no-repeat top right ,
+    url("../.images/Vector Smart Object.png") no-repeat -32%;
+    padding-bottom: 50px;
+}
+.first-header {
+    font-family: 'Rufina', serif;
+    font-size: 15px;
+    color: #e3807d;
+    margin-bottom: 30px;
+
+}
+.second-header {
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+.third-header {
+    font-family: 'Roboto', sans-serif;
+    color: #565656;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 2;
+}
+.beauty-button-wrapper {
+    display: flex;
+}
+.play-icon-wrapper {
+    display: flex;
+
+}
+.watch-your-story {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    padding-top: 35px;
+}
+
+.fa-arrow-right {
+    font-size: 10px;
+    padding-left: 5px;
+}
+.fa-play-circle {
+    color: #e3807d;
+    margin-left: 54px;
+    font-size: 30px;
+    padding-top: 22px;
+}
+.beauty-button {
+    background-color: #e3807d;
+    width: 170px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    outline: none;
+
+
+}
+.beauty-button:hover {
+    color: #48d077;
+}
+.fa-play-circle:hover {
+    color: #48d077;
+}
+
+@media (max-width: 966px) {
+ .beauty-section {
+     background: url("../.images/BG .png") no-repeat top right ,
+     url("../.images/Vector Smart Object.png") no-repeat -150%;
+
+ }
+
+}
+@media (max-width: 657px) {
+    .beauty-section {
+        background: url("../.images/BG .png") no-repeat -1000px ,
+        url("../.images/Vector Smart Object.png") no-repeat -10% 30%;
+
+    }
+    .navigation-block {
+        padding-top: 0;
+    }
+
+}
+@media (max-width: 453px) {
+    .fa-play-circle {
+        margin-left: 20px;
+    }
+
+}
+@media (max-width: 389px) {
+    .watch-your-story {
+
+        padding-top: 24px;
+        margin-left: 5px;
+    }
+}

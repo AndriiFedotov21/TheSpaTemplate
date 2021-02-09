@@ -1,0 +1,73 @@
+.navigation-section {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 200px;
+
+
+}
+.navigation-list {
+    display: flex;
+}
+.navigation-image-holder {
+    width: 20%;
+}
+.navigation-block {
+
+    padding-top: 60px;
+
+}
+.navigation-list-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-right: 35px;
+}
+.navigation-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.navigation-link:hover {
+    transition: 0.3s;
+    color: #e3807d;
+
+}
+
+
+    .navigation-section {
+        margin-left: 20px;
+    }
+
+    .first-header {
+        margin-left: 20px;
+
+    }
+
+    .second-header {
+        margin-left: 20px;
+
+    }
+
+    .third-header {
+        margin-left: 20px;
+
+    }
+
+    .beauty-button-wrapper {
+        margin-left: 20px;
+    }
+
+
+@media (max-width: 657px) {
+    .navigation-section {
+        display: block;
+        text-align: center;
+    }
+    .navigation-list {
+        display: block;
+    }
+    .navigation-list-item {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+}
